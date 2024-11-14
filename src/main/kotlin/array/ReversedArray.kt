@@ -1,6 +1,6 @@
 package org.example.array
 
-object ArrayFunc {
+object ReversedArray {
     fun reversedArray(arr: IntArray): IntArray {
         var temp: Int
         for (i in 0..arr.size / 2) {
