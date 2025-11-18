@@ -1,17 +1,27 @@
 package org.example.leetcode.easy
 
+import java.util.*
+
 /**
  * https://leetcode.com/problems/contains-duplicate/
  */
 class ContainsDuplicateSolution {
+    // Runtime
     fun containsDuplicate(nums: IntArray): Boolean {
-        val seen = HashSet<Int>()
+        val seen = hashSetOf<Int>()
         for (element in nums) {
-            if (seen.contains(element)) {
+            if (!seen.add(element)) {
                 return true
-            } else {
-                seen.add(element)
             }
+        }
+        return false
+    }
+
+    fun containsDuplicate1(nums: IntArray): Boolean {
+        nums.sort()
+
+        for (i in 1..<nums.size) {
+            if (nums[i] == nums[i - 1]) return true
         }
         return false
     }

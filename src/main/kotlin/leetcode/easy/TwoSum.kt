@@ -29,7 +29,6 @@ object TwoSum {
                 map[nums[i]] = i
             }
         }
-        map.toList().map { it.second }
         throw IllegalStateException("Invalid number")
     }
 }
