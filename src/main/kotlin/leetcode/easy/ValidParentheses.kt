@@ -2,6 +2,9 @@ package org.example.leetcode.easy
 
 import java.util.Stack
 
+/**
+ * [valid-parentheses-leetcode](https://leetcode.com/problems/valid-parentheses/description/)
+ */
 class ValidParentheses {
     //    fun isValid(s: String): Boolean {
 //        if (s.length <= 1) return false
