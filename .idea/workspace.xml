@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9553f32b-00c1-49e3-981b-711cf384f86b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/easy/101_symmetric_tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/easy/51-100.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/easy/tree/TreeNode.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/leetcode/easy/TwoSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/easy/TwoSum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/leetcode/easy/BestTimeToBuyAndSellStock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/leetcode/easy/BestTimeToBuyAndSellStock.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +24,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="leetcode" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -43,8 +49,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.0.0/84cdfeb1d3e1b3f72cc4e0a3803c85c4727312f1/kotlin-stdlib-2.0.0-sources.jar!/commonMain/generated/_Arrays.kt" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.0.0/84cdfeb1d3e1b3f72cc4e0a3803c85c4727312f1/kotlin-stdlib-2.0.0-sources.jar!/jvmMain/kotlin/collections/ArraysJVM.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.22-ms/lib/src.zip!/java.base/java/lang/Math.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.22-ms/lib/src.zip!/java.base/java/util/Stack.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.22-ms/lib/src.zip!/java.base/java/util/Vector.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -59,6 +66,7 @@
   &quot;keyToString&quot;: {
     &quot;Gradle.ArrayFunc.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.ArrayFunc.testA.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BinarySearchTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Build leetcode.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.MainTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.MainTest.find 1.executor&quot;: &quot;Run&quot;,
@@ -67,6 +75,7 @@
     &quot;Gradle.TwoSumTest.testTwoSum3.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.TwoSumTest.twoSum1 should return 6.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.TwoSumTest.twoSum1 should return 9.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ValidPalindromeTest.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -79,7 +88,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -94,8 +103,8 @@
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="ArrayFunc.testA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BinarySearchTest">
+    <configuration name="BinarySearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -108,7 +117,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;array.ArrayFunc.testA&quot;" />
+            <option value="&quot;leetcode.easy.BinarySearchTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,30 +152,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TwoSumTest.testTwoSum2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.easy.TwoSumTest.testTwoSum2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="TwoSumTest.testTwoSum3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -191,6 +176,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="ValidPalindromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.easy.ValidPalindromeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
       <module name="leetcode.main" />
@@ -200,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinarySearchTest" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.ValidPalindromeTest" />
         <item itemvalue="Gradle.TwoSumTest" />
         <item itemvalue="Gradle.TwoSumTest.testTwoSum3" />
-        <item itemvalue="Gradle.TwoSumTest.testTwoSum2" />
-        <item itemvalue="Gradle.ArrayFunc.testA" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +261,20 @@
       <workItem from="1744099281020" duration="6958000" />
       <workItem from="1744906839744" duration="1468000" />
       <workItem from="1745066137982" duration="30691000" />
+      <workItem from="1764899432515" duration="136000" />
+      <workItem from="1764899590556" duration="6167000" />
+      <workItem from="1765354971190" duration="154000" />
+      <workItem from="1765355136796" duration="8253000" />
+      <workItem from="1768554912159" duration="7618000" />
+      <workItem from="1768786428037" duration="451000" />
+      <workItem from="1770177953940" duration="9551000" />
+      <workItem from="1770607062563" duration="24502000" />
+      <workItem from="1772583312132" duration="1380000" />
+      <workItem from="1772588048948" duration="66000" />
+      <workItem from="1772589237776" duration="3979000" />
+      <workItem from="1773637273041" duration="2723000" />
+      <workItem from="1773737442796" duration="3657000" />
+      <workItem from="1773845868549" duration="847000" />
     </task>
     <servers />
   </component>
